@@ -14,3 +14,7 @@ use Illuminate\Support\Facades\Route;
 //        $tags=Tag::factory()->count(10)->create();
 //        dd($tags->toArray());
 //    });
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
