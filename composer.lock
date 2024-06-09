@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6aa8b1c41f6b2e9e802450e586153003",
+    "content-hash": "cfee5a9a9825caa6d4c96a5edb08674d",
     "packages": [
         {
             "name": "brick/math",
@@ -1049,6 +1049,83 @@
                 }
             ],
             "time": "2023-12-03T19:50:20+00:00"
+        },
+        {
+            "name": "imanghafoori/laravel-heyman",
+            "version": "v2.2.58",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/imanghafoori1/laravel-heyman.git",
+                "reference": "1b4f56ff9aac5f9b7325b81e0b3fc8efc38a5244"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/imanghafoori1/laravel-heyman/zipball/1b4f56ff9aac5f9b7325b81e0b3fc8efc38a5244",
+                "reference": "1b4f56ff9aac5f9b7325b81e0b3fc8efc38a5244",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "~5.1|6.*|7.*|8.*|9.*|10.*|^11.0",
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "barryvdh/laravel-debugbar": "^2.3|3.*|4.*",
+                "imanghafoori/laravel-makesure": "^1.0",
+                "imanghafoori/php-imports-analyzer": "^1.0.2",
+                "mockery/mockery": "^1.0",
+                "orchestra/testbench": ">=3.0"
+            },
+            "suggest": {
+                "imanghafoori/laravel-anypass": " Allows you login with any password in local environment.",
+                "imanghafoori/laravel-masterpass": "You can easily set a master password without code change.",
+                "imanghafoori/laravel-terminator": "Gives you opportunity to refactor your controllers.",
+                "imanghafoori/laravel-widgetize": "Gives you a better structure and caching opportunity for your web pages."
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Imanghafoori\\HeyMan\\HeyManServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "Imanghafoori\\HeyMan\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Iman Ghafoori",
+                    "email": "imanghafoori1@gmail.com"
+                }
+            ],
+            "description": "A package to help you write expressive defensive code in a functional manner",
+            "homepage": "https://github.com/imanghafoori1/laravel-HeyMan",
+            "keywords": [
+                "eloquent-validation",
+                "laravel",
+                "laravel-acl",
+                "laravel-authorization",
+                "laravel-permission",
+                "laravel-roles",
+                "laravel-validation",
+                "laravel5",
+                "laravel5-package",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/imanghafoori1/laravel-heyman/issues",
+                "source": "https://github.com/imanghafoori1/laravel-heyman/tree/v2.2.58"
+            },
+            "time": "2024-03-02T15:42:19+00:00"
         },
         {
             "name": "laravel/framework",
